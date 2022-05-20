@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "public": "website",
+    "ignore": ["firebase.json", "README.md", "**/.*", "**/node_modules/**"],
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "https://2023.commit-conf.com",
+        "type": 302
+      },
+      {
+        "source": "/**",
+        "destination": "https://2023.commit-conf.com",
+        "type": 302
+      }
+    ]
+  }
+}
