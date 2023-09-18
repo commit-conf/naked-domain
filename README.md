@@ -18,6 +18,8 @@ firebase --project "commit-conf" deploy
 npm install -g firebase-tools
 
 firebase login
+
+mkdir website
 ```
 
 # The long story

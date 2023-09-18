@@ -1,0 +1,22 @@
+{
+  "name": "commit-root-domain",
+  "version": "1.0.0",
+  "description": "The purpose of this project is to redirect the naked domain (with 302, here is the problem) `http(s)://commit-conf.com` to `https://<edition>.commit-conf.com`",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "./node_modules/firebase-tools/lib/bin/firebase.js --project \"commit-conf\" deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/commit-conf/naked-domain.git"
+  },
+  "author": "Carlos Coloma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/commit-conf/naked-domain/issues"
+  },
+  "homepage": "https://github.com/commit-conf/naked-domain#readme",
+  "devDependencies": {
+    "firebase-tools": "^12.5.4"
+  }
+}
