@@ -12,12 +12,12 @@
     "redirects": [
       {
         "source": "/",
-        "destination": "https://2025.commit-conf.com",
+        "destination": "https://2026.commit-conf.com",
         "type": 302
       },
       {
         "source": "/**",
-        "destination": "https://2025.commit-conf.com",
+        "destination": "https://2026.commit-conf.com",
         "type": 302
       }
     ]
